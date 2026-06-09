@@ -265,7 +265,7 @@ begin
        else
         if ExecuteTabTip then
           begin
-            {$IFDEF DELPHI17_UP}
+            {$IFDEF DELPHI25_UP}
               TThread.ForceQueue(nil,
                 procedure
                 begin
